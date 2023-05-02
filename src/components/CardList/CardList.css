@@ -1,0 +1,14 @@
+.card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 55px;
+}

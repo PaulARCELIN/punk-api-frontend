@@ -1,0 +1,41 @@
+.card-container {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 2px 2px #26474E;
+    background-color: #D46F4D;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+.card-container:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+    box-shadow: 10px 5px 5px #26474E;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%; 
+   object-fit: contain;
+}
+
+.card-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    
+}
+
