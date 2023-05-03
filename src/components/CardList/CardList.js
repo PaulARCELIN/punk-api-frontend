@@ -9,7 +9,7 @@ function CardList({data}) {
 
   const [searchInput, setSearchInput] = useState('')
 
-  /* the research algorthm */
+  /* the research algorithm */
   function searchBarAlgo(element) {
     if(searchInput.length >= 1) {     
         if(element.name.toUpperCase().includes(searchInput.toUpperCase()) 
@@ -28,7 +28,7 @@ function CardList({data}) {
       <div>
         <div className="top-container">
           <SearchBar selection={setSearchInput}/>
-          <NavLink to='/random' className="nav" activeclassname='active'>GET A RANDOM BEER!</NavLink>
+          <NavLink to='/random' className="random" activeclassname='active'>GET A RANDOM BEER!</NavLink>
         </div>
         <div className="card-list">
           {data.map((e) => {
